@@ -17,3 +17,13 @@ PC 깃에서 원격저장소 복제(git clone)
   ■ 하부 폴더(새로운-폴도명) 이름으로 복제
 -$ git clone(복사된-주소)
   ■ 현재폴더에 바로 복제
+
+원격 저장소 별칭 관리
+-$ git remote add origin URL
+  ■ 원격 저장소 별칭 저장
+-$ git remote show origin
+  ■ 자세한 정보
+-$ git remote rename origin org
+  ■ 이름 수정
+-$ git remote rm org
+  ■ 삭제
